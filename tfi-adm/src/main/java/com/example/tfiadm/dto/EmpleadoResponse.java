@@ -23,6 +23,7 @@ public class EmpleadoResponse {
     @JsonProperty("fecha_nacimiento")
     private LocalDate bod;
     private String mail;
+    private boolean borrado;
     @JsonProperty("localidad_id")
     private LocalidadResponse localidad;
 
